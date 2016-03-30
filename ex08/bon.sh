@@ -1,0 +1,1 @@
+ldapsearch -x -LLL "uid=*bon*" sn | grep sn | wc -l
